@@ -3,8 +3,6 @@ package ru.mirea.task9;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.time.Clock;
-import java.util.concurrent.TimeUnit;
 
 public class Game {
     public static void main(String[] args) {
