@@ -18,12 +18,11 @@ public class Main extends JFrame{
                 int x = 100+(int)(Math.random()*500);
                 int y = 100+(int)(Math.random()*500);
                 int a =(int)(Math.random()*2);
-                /*Shape shape = switch (a) {
-                    case 0: shape = new Rect(x,y);
-                    case 1: shape = new Circle(x, y);
-                    default: shape = new RoundRect(x,y);
-                };
-                shape.paintFigure(g);*/
+                Shape shape = new Circle(x,y);
+                if (a == 0) shape = new Rect(x,y);
+                else if (a == 1) shape = new Circle(x, y);
+                else if (a == 2) shape = new RoundRect(x,y);
+                shape.paintFigure(g);
             }
             f = true;
         }
