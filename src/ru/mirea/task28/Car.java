@@ -31,7 +31,7 @@ public class Car {
 
         Car bmw = new Car(new Model("BMW", 250), 2012,  2920000) {
             public void info() {
-                System.out.println("Машина - " + model.model + " " + model.speed + " " + price + " " + year);
+                System.out.println(model.model + " скорость:" + model.speed + " цена:" + price + " год:" + year);
             }
         };
         System.out.println();
