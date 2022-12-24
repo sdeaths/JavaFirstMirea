@@ -18,9 +18,11 @@ public class Main {
             case 1:
                 Payment epayment = new EPayment();
                 epayment.askData();
+                break;
             case 2:
                 Payment cardpayment = new Card();
                 cardpayment.askData();
+                break;
         }
     }
 }
