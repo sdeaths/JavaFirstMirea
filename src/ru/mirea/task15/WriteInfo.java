@@ -8,7 +8,7 @@ public class WriteInfo {
         Scanner scanner = new Scanner(System.in);
         String text;
 
-        try(FileWriter writer = new FileWriter("C:\\Users\\s_death_s\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task15\\info1.txt")) {
+        try(FileWriter writer = new FileWriter("src/ru/mirea/task15/info1.txt")) {
             System.out.println("Введите информацию, которую необходимо передать в текстовый файл");
             text = scanner.nextLine();
             writer.write(text);

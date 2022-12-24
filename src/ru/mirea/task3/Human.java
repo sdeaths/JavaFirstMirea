@@ -1,7 +1,5 @@
 package ru.mirea.task3;
 
-import java.util.Arrays;
-
 class Head{
     private String eye;
     private String hair;

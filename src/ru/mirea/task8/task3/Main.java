@@ -10,11 +10,11 @@ public class Main extends JFrame{
         frame.add(picture);
         frame.setVisible(true);
         while (true){
-            picture.setIcon(new ImageIcon("C:\\Users\\s_death_s\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task8\\task3\\1step.jpg"));
+            picture.setIcon(new ImageIcon("src/ru/mirea/task8/task3/1step.jpg"));
             Thread.sleep(150);
-            picture.setIcon(new ImageIcon("C:\\Users\\s_death_s\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task8\\task3\\2step.jpg"));
+            picture.setIcon(new ImageIcon("src/ru/mirea/task8/task3/2step.jpg"));
             Thread.sleep(150);
-            picture.setIcon((new ImageIcon("C:\\Users\\s_death_s\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task8\\task3\\3step.jpg")));
+            picture.setIcon((new ImageIcon("src/ru/mirea/task8/task3/3step.jpg")));
             Thread.sleep(150);
         }
     }

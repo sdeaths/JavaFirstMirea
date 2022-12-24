@@ -4,7 +4,7 @@ import java.io.*;
 
 public class ReadInfo {
     public static void main(String[] args){
-        try (FileReader reader = new FileReader("C:\\Users\\s_death_s\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task15\\info1.txt")){
+        try (FileReader reader = new FileReader("src/ru/mirea/task15/info1.txt")){
             System.out.println("Из файла получен текст: ");
             int c;
             while ((c = reader.read()) != -1)
